@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farmeazy - Checkout</title>
+
+    <!-- SWIPER -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- Font Awesome CDN Link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- Custom CSS File Link  -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+     <!-- HEADER -->
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <header class="header">
+        <div id="menu-btn" class="fas fa-bars"></div>
+
+        <a href="#" class="logo">eazyFarm <i class="fas fa-seedling"></i></a>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="#products">products</a>
+            <a href="#review">review</a>
+            <a href="#contact">contact</a>
+        </nav>
+
+
+        <a href="cart.html" class="btn">Back to Cart</a>
+
+    </header>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Checkout Page</title>
+        <!-- Link to Chakra UI CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/@chakra-ui/core/dist/css/chakra.min.css" rel="stylesheet">
+        <!-- Custom CSS for additional styling -->
+        <style>
+            body {
+                font-family: "Arial", sans-serif;
+                background-color: #f7fafc;
+                color: black;
+            }
+            .container {
+                max-width: 800px;
+                margin: 50px auto;
+                padding: 20px;
+                border-color: black;
+                background-image: url('F:\eazyfarm(main)\Farmeazy\image\book-cart.jpg');
+            }
+            .heading {
+                margin-bottom: 20px;
+            }
+            .grid {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                gap: 20px;
+                border-color: black;
+            }
+            .box {
+                background-color: #fff;
+                padding: 20px;
+                border-radius: 8px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                border-color: black;
+            }
+            .radio-group label {
+                margin-right: 10px;
+
+            }
+            .btn1 {
+                display: block;
+                width: 100%;
+                padding: 10px;
+                font-weight: bold;
+                text-align: center;
+                color: #fff;
+                background-color: #38a169;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+                transition: background-color 0.3s;
+                border-color: ;
+            }
+            .btn1:hover {
+                background-color: #4fd1c5;
+            }
+            .message {
+                margin-top: 20px;
+                padding: 10px;
+                background-color: #f0fff4;
+                border-radius: 4px;
+            }
+            .box1{
+                background-image: url('F:\eazyfarm(main)\Farmeazy\image\book-cart.jpg');
+            }
+        </style>
+    </head>
+    <center><body>
+        <div class="container">
+            <h1 class="heading">Checkout<span>Page</span></h1>
+            <div class="grid">
+                <!-- Personal Details Section -->
+                <div class="box1">
+                    <h2>Checkout</h2>
+                    <br>
+                    <div>
+                        <input type="text" placeholder="First Name" class="input" /><br>
+                        <br>
+                        <input type="text" placeholder="Last Name" class="input" />
+                    </div>
+
+                    <br>
+                    <div>
+                        <input type="email" placeholder="Email" class="input" /><br>
+                        <br>
+                        <input type="tel" placeholder="Phone Number" class="input" />
+                        <br>
+                    </div>
+                    <div class="radio-group">
+                        <br>
+                        <h3 style="font-size: 15px;">Payment Method</h3>
+                        <br>
+                        <label style="font-size: 13spx;"><input type="radio" name="payment" value="phonepe"> PhonePe</label>
+                        <label style="font-size: 13px;"><input type="radio" name="payment" value="paytm"> Paytm</label>
+                        <label style="font-size: 13px;"><input type="radio" name="payment" value="gpay"> GPay</label>
+                        <label style="font-size: 13px;"><input type="radio" name="payment" value="bhim"> BHIm</label>
+                    </div>
+                </div>
+
+                <!-- Card Details Section -->
+                <div class="box1">
+                    <h2>Card Details</h2>
+                    <br>
+                    <div>
+                        <input type="text" placeholder="Card Number" class="input" /><br>
+                        <br>
+                        <input type="text" placeholder="Card Holder Name" class="input" /><br>
+                        <br>
+                        <input type="text" placeholder="CVV" class="input" pattern="\d{3}" />
+                        <br>
+                    </div>
+                    <a href="done.html" class="btn">Pay Now</a>
+
+
+                </div>
+            </div>
+
+            <!-- Payment Success Message -->
+
+        </div>
+    </center>
+
+
+    </body>
+    </html>
+
+    <!-- FOOTER -->
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>our locations</h3>
+                <a href="#"><i class="fas fa-arrow-right"></i> Banglore</a>
+                <a href="#"><i class="fas fa-arrow-right"></i> Delhi</a>
+                <a href="#"><i class="fas fa-arrow-right"></i> Bombay</a>
+                <a href="#"><i class="fas fa-arrow-right"></i> Chennai</a>
+                <a href="#"><i class="fas fa-arrow-right"></i> Hyderabad</a>
+            </div>
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="index.html"><i class="fas fa-arrow-right"></i> home</a>
+                <a href="#about"><i class="fas fa-arrow-right"></i> about</a>
+                <a href="#products"><i class="fas fa-arrow-right"></i> products</a>
+                <a href="#review"><i class="fas fa-arrow-right"></i> review</a>
+                <a href="#contact"><i class="fas fa-arrow-right"></i> contact</a>
+            </div>
+
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#"><i class="fas fa-phone"></i> +123-456-7890</a>
+                <a href="#"><i class="fas fa-phone"></i> +111-222-3333</a>
+                <a href="#"><i class="fas fa-envelope"></i> eazyFarm@gmail.com</a>
+                <a href="#"><i class="fas fa-envelope"></i> Nmamit,Nitte</a>
+            </div>
+
+            <div class="box">
+                <h3>follow us</h3>
+                <a href="#"><i class="fab fa-facebook-f"></i> facebook</a>
+                <a href="#"><i class="fab fa-twitter"></i> twitter</a>
+                <a href="#"><i class="fab fa-instagram"></i> instagram</a>
+                <a href="#"><i class="fab fa-linkedin"></i> linkedin</a>
+                <a href="#"><i class="fab fa-twitter"></i> twitter</a>
+            </div>
+        </div>
+
+        <div class="credit">created by <span>team eazyFarm</span></div>
+    </section>
+
+    <!-- SWIPER -->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <!-- Custom JS File Link  -->
+    <script src="js/script.js"></script>
+    <script src="js/cart.js"></script>
+</body>
+</html>
